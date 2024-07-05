@@ -59,3 +59,28 @@ h3 {
   color: hsl(212, 23%, 69%);
   font-weight: 500;
 }
+.hidden {
+  background-color: hsl(217, 19%, 35%);
+  width: 60%;
+  display: flex;
+  align-content: center;
+  align-items: end;
+  justify-content: right;
+  display: none;
+}
+.socials {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  object-position: center;
+  padding-right: 8px;
+  cursor: pointer;
+}
+.h-text {
+  color: hsl(212, 23%, 69%);
+  padding-right: 12px;
+  margin: 0;
+}
+.show {
+  display: flex;
+}
